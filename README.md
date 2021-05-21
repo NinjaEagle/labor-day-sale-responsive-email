@@ -1,1 +1,3 @@
-# labor-day-sale-responsive-email
+# Labor-day-sale-responsive-email
+
+Built with Foundation, SCSS

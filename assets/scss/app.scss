@@ -1,0 +1,138 @@
+@import "settings";
+@import "foundation-emails";
+@import "template/template";
+.coupon-code {
+    background: rgb(31, 67, 144);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(171, 171, 171);
+}
+
+// displaying logos and maintaing aspect ratio by dividing width/height
+.logos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+}
+
+.pic1 {
+    object-fit: contain;
+    flex: calc(144 / 81);
+}
+
+.pic2 {
+    flex: calc(114 / 136);
+}
+
+.pic3 {
+    flex: calc(156 / 92);
+}
+
+.pic4 {
+    flex: calc(80 / 80);
+}
+
+.pic5 {
+    flex: calc(122 / 64);
+}
+
+.logo1 {
+    flex: calc(160 / 79);
+    border-right: 1px solid gray;
+    padding: 0 5px;
+}
+
+.logo2 {
+    flex: calc(200 / 88);
+    border-right: 1px solid gray;
+    padding: 0 6px 0 20px;
+}
+
+.logo3 {
+    flex: calc(224 / 43);
+    border-right: 1px solid gray;
+    padding: 0 0 0 15px;
+}
+
+.logo4 {
+    flex: calc(160 / 67);
+    padding: 0 8px;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.pictures {
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+}
+
+.button {
+    color: white;
+}
+
+.family {
+    background-color: rgb(6, 35, 112);
+}
+
+.laborday {
+    background-color: rgb(31, 67, 144);
+}
+
+.saleborder {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    background-color: rgb(184, 53, 59);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.code {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links {
+    text-decoration: underline;
+}
+
+// small font sizes
+.labordaysmall {
+    font-size: small;
+}
+
+.disclaimer {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.smallfont {
+    font-size: 12px;
+}
